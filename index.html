@@ -17,7 +17,7 @@
     </style>
 </head>
 <body>
-    <header class="container mx-auto">
+    <header class="container w-90% mx-auto">
         <div class="navbar lg:px-5 mt-7 lg:mt-14">
             <div class="navbar-start">
               <div class="dropdown">
@@ -33,7 +33,7 @@
                     <li><input type="text" placeholder="search"></li>                   
                 </ul>
               </div>
-              <a class="btn btn-ghost text-4xl font-extrabold lg: text-[#131318]">Hockey <span class="text-[#FF4240]">’</span>s</a>
+              <a class="btn btn-ghost text-4xl font-extrabold text-[#131318]">Hockey <span class="text-[#FF4240]">’</span>s</a>
             </div>
             <div class="navbar-center hidden lg:flex">
               <ul class="menu menu-horizontal px-1 font-bold">
@@ -44,13 +44,14 @@
                 <li><a>Contact</a></li>
               </ul>
             </div>
-            <div class="navbar-end space-x-4">
+            <div class="navbar-end space-x-4 pr-3 lg:pr-0">
                 <i class="fa-solid fa-magnifying-glass hidden lg:contents "></i>
-                <a class="text-xl rounded-lg bg-[#FF4240] px-6 py-4 text-white  font-bold">Get Ticket</a>
+                <a class="text-xl rounded-lg bg-[#FF4240] px-3  py-2 lg:px-6 lg:py-4 text-white  font-bold">Get Ticket</a>
             </div>
         </div>
     </header>
-    <main class="container mx-auto ">
+    <!-- header section -->
+    <main class="container w-90% mx-auto ">
         <!-- meet section  -->
         <section class="mx-5 mt-14">
            <div>
@@ -85,7 +86,7 @@
                 </div>
            </div>
            <div class="bg-[#131318] rounded-2xl mt-4 p-8 text-white relative lg:absolute lg:-bottom-24 lg:right-20">
-                <h3 class="text-2xl font-extrabold ">Meet all the heroes from the field </h3>
+                <h3 class="lg:text-2xl text-lg font-extrabold ">Meet all the heroes from the field </h3>
                 <p class="font-medium mt-4">Dit amet consectetur. Condimentum dignissim adipiscing aliquam <br> turpis placerat dolor. Purus urna in sit nullam proin. </p>
             </div>
         </div>
@@ -93,27 +94,27 @@
         <!-- Professional section  -->
         <section class=" mx-5 mt-24">
             <div class="text-center">
-                <h2 class="text-[#131318] text-4xl font-extrabold">Professional Hockeys Club</h2>
+                <h2 class="text-[#131318] text-2xl lg:text-4xl font-extrabold">Professional Hockeys Club</h2>
                 <p class="text-[#30303a] font-medium mt-6">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat <br> dolor. Purus urna in sit nullam proin. </p>
             </div>
             <div class="mt-12 space-y-8 lg:space-y-0 lg:flex gap-8 justify-center">
                 <div class="text-center">
-                    <div class="radial-progress text-[#FF4240]" style="--value:87;" role="progressbar">87%</div>
+                    <div class="radial-progress rotate-180 text-[#FF4240]" style="--value:87;" role="progressbar"><span class="rotate-180">87%</span></div>
                     <h4 class="text-[#131318] text-xl font-extrabold mt-6">Prayer Facility</h4>
                     <p class="text-[#1e1e23] mt-4">Amet consectetur. Condimentum <br> dignissim adipiscing .</p>
                 </div>
                 <div class="text-center">
-                    <div class="radial-progress text-[#49D293]" style="--value:95;" role="progressbar">95%</div>
+                    <div class="radial-progress text-[#49D293] rotate-180 " style="--value:95;" role="progressbar"><span class="rotate-180">95%</span></div>
                     <h4 class="text-[#131318] text-xl font-extrabold mt-6">Experienced Coach</h4>
                     <p class="text-[#1e1e23] mt-4">Amet consectetur. Condimentum <br> dignissim adipiscing .</p>
                 </div>
                 <div class="text-center">
-                    <div class="radial-progress text-[#FFB546]" style="--value:90;" role="progressbar">90%</div>
+                    <div class="radial-progress text-[#FFB546] rotate-180" style="--value:90;" role="progressbar"><span class="rotate-180">90%</span></div>
                     <h4 class="text-[#131318] text-xl font-extrabold mt-6">Senior Player</h4>
                     <p class="text-[#1e1e23] mt-4">Amet consectetur. Condimentum <br> dignissim adipiscing .</p>
                 </div>
                 <div class="text-center">
-                    <div class="radial-progress text-[#4C8DF1]" style="--value:80;" role="progressbar">80%</div>
+                    <div class="radial-progress text-[#4C8DF1] rotate-180" style="--value:80;" role="progressbar"><span class="rotate-180">80%</span></div>
                     <h4 class="text-[#131318] text-xl font-extrabold mt-6">Training Ground</h4>
                     <p class="text-[#1e1e23] mt-4">Amet consectetur. Condimentum <br> dignissim adipiscing .</p>
                 </div>
@@ -172,7 +173,7 @@
                 </p>
             </div>
             <div class="mt-10 lg:mt-20 grid grid-cols-1 lg:grid-cols-2  gap-6">
-                <div class="card card-side bg-base-100 shadow-xl border border-solid border-[#30303a] border-opacity-20 p-6">
+                <div class="card block lg:flex card-side bg-base-100 shadow-xl border border-solid border-[#30303a] border-opacity-20 p-6">
                     <figure><img src="./Images/5.png" alt="Movie"/></figure>
                     <div class="card-body ">
                         <div class="flex gap-6">
@@ -191,14 +192,16 @@
                         </div>
                         <h2 class="text-xl font-extrabold text-[#131318]">World Cup Flags Football</h2>
                         <p class="text-[#30303a]">Dolor sit amet consectetur. Ut urna diam quis sagittis. </p>
-                        <div class="flex gap-3 text-[#30303a]">                               
-                            <h4 class="">Price - $22.00</h4>
-                            <i class="fa-solid fa-cart-shopping"></i>
-                            <p>Delivery Fee : Free</p>
+                        <div class="lg:flex gap-3 text-[#30303a]">                               
+                            <h4 class="mb-3 text-[#FF4240] text-lg font-extrabold">Price - $22.00</h4>
+                            <div class="flex gap-3 font-medium">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                                <p>Delivery Fee : Free</p>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="card card-side bg-base-100 shadow-xl border border-solid border-[#30303a] border-opacity-20 p-6">
+                <div class="card block lg:flex card-side bg-base-100 shadow-xl border border-solid border-[#30303a] border-opacity-20 p-6">
                     <figure><img src="./Images/6.png" alt="Movie"/></figure>
                     <div class="card-body ">
                         <div class="flex gap-6">
@@ -217,14 +220,16 @@
                         </div>
                         <h2 class="text-xl font-extrabold text-[#131318]">World Cup Flags Football</h2>
                         <p class="text-[#30303a]">Dolor sit amet consectetur. Ut urna diam quis sagittis. </p>
-                        <div class="flex gap-3 text-[#30303a]">                               
-                            <h4 class="">Price - $22.00</h4>
-                            <i class="fa-solid fa-cart-shopping"></i>
-                            <p>Delivery Fee : Free</p>
+                        <div class="lg:flex gap-3 text-[#30303a]">                               
+                            <h4 class="mb-3 text-[#FF4240] text-lg font-extrabold">Price - $22.00</h4>
+                            <div class="flex gap-3 font-medium">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                                <p>Delivery Fee : Free</p>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="card card-side bg-base-100 shadow-xl border border-solid border-[#30303a] border-opacity-20 p-6">
+                <div class="card block lg:flex card-side bg-base-100 shadow-xl border border-solid border-[#30303a] border-opacity-20 p-6">
                     <figure><img src="./Images/7.png" alt="Movie"/></figure>
                     <div class="card-body ">
                         <div class="flex gap-6">
@@ -243,14 +248,16 @@
                         </div>
                         <h2 class="text-xl font-extrabold text-[#131318]">World Cup Flags Football</h2>
                         <p class="text-[#30303a]">Dolor sit amet consectetur. Ut urna diam quis sagittis. </p>
-                        <div class="flex gap-3 text-[#30303a]">                               
-                            <h4 class="">Price - $22.00</h4>
-                            <i class="fa-solid fa-cart-shopping"></i>
-                            <p>Delivery Fee : Free</p>
+                        <div class="lg:flex gap-3 text-[#30303a]">                               
+                            <h4 class="mb-3 text-[#FF4240] text-lg font-extrabold">Price - $22.00</h4>
+                            <div class="flex gap-3 font-medium">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                                <p>Delivery Fee : Free</p>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="card card-side bg-base-100 shadow-xl border border-solid border-[#30303a] border-opacity-20 p-6">
+                <div class="card block lg:flex card-side bg-base-100 shadow-xl border border-solid border-[#30303a] border-opacity-20 p-6">
                     <figure><img src="./Images/8.png" alt="Movie"/></figure>
                     <div class="card-body ">
                         <div class="flex gap-6">
@@ -269,14 +276,16 @@
                         </div>
                         <h2 class="text-xl font-extrabold text-[#131318]">World Cup Flags Football</h2>
                         <p class="text-[#30303a]">Dolor sit amet consectetur. Ut urna diam quis sagittis. </p>
-                        <div class="flex gap-3 text-[#30303a]">                               
-                            <h4 class="">Price - $22.00</h4>
-                            <i class="fa-solid fa-cart-shopping"></i>
-                            <p>Delivery Fee : Free</p>
+                        <div class="lg:flex gap-3 text-[#30303a]">                               
+                            <h4 class="mb-3 text-[#FF4240] text-lg font-extrabold">Price - $22.00</h4>
+                            <div class="flex gap-3 font-medium">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                                <p>Delivery Fee : Free</p>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="card card-side bg-base-100 shadow-xl border border-solid border-[#30303a] border-opacity-20 p-6">
+                <div class="card block lg:flex card-side bg-base-100 shadow-xl border border-solid border-[#30303a] border-opacity-20 p-6">
                     <figure><img src="./Images/9.png" alt="Movie"/></figure>
                     <div class="card-body ">
                         <div class="flex gap-6">
@@ -295,14 +304,16 @@
                         </div>
                         <h2 class="text-xl font-extrabold text-[#131318]">World Cup Flags Football</h2>
                         <p class="text-[#30303a]">Dolor sit amet consectetur. Ut urna diam quis sagittis. </p>
-                        <div class="flex gap-3 text-[#30303a]">                               
-                            <h4 class="">Price - $22.00</h4>
-                            <i class="fa-solid fa-cart-shopping"></i>
-                            <p>Delivery Fee : Free</p>
+                        <div class="lg:flex gap-3 text-[#30303a]">                               
+                            <h4 class="mb-3 text-[#FF4240] text-lg font-extrabold">Price - $22.00</h4>
+                            <div class="flex gap-3 font-medium">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                                <p>Delivery Fee : Free</p>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="card card-side bg-base-100 shadow-xl border border-solid border-[#30303a] border-opacity-20 p-6">
+                <div class="card block lg:flex card-side bg-base-100 shadow-xl border border-solid border-[#30303a] border-opacity-20 p-6">
                     <figure><img src="./Images/10.png" alt="Movie"/></figure>
                     <div class="card-body ">
                         <div class="flex gap-6">
@@ -321,16 +332,18 @@
                         </div>
                         <h2 class="text-xl font-extrabold text-[#131318]">World Cup Flags Football</h2>
                         <p class="text-[#30303a]">Dolor sit amet consectetur. Ut urna diam quis sagittis. </p>
-                        <div class="flex gap-3 text-[#30303a]">                               
-                            <h4 class="">Price - $22.00</h4>
-                            <i class="fa-solid fa-cart-shopping"></i>
-                            <p>Delivery Fee : Free</p>
+                        <div class="lg:flex gap-3 text-[#30303a]">                               
+                            <h4 class="mb-3 text-[#FF4240] text-lg font-extrabold">Price - $22.00</h4>
+                            <div class="flex gap-3 font-medium">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                                <p>Delivery Fee : Free</p>
+                            </div>
                         </div>
                     </div>
-                </div>               
+                </div>              
             </div>
         </section>
-<!-- faq section -->
+        <!-- faq section -->
         <section class="mx-5 mt-24">
             <div class="text-center">
                 <h2 class=" text-[#131318] text-4xl font-extrabold">Clients Question</h2>
@@ -402,7 +415,7 @@
                 </div>
             </div>
         </section>
-<!-- Get In Touch section -->
+        <!-- Get In Touch section -->
         <section class="mx-5 mt-24">
             <div class="text-center">
                 <h2 class=" text-[#131318] text-4xl font-extrabold">Get In Touch</h2>
@@ -429,7 +442,7 @@
                         <p class="text-lg font-extrabold">152/1 Mohakhali Wireless Gate</p>
                     </div>
                 </div>
-                <div class="flex-1 gap-5 grid grid-cols-2 lg:grid-rows-5  rounded-xl">
+                <div class="flex-1 gap-5 grid grid-cols-1 lg:grid-cols-2 lg:grid-rows-5  rounded-xl">
                     <div class="space-y-4  mt-6">
                         <h3 class="text-[#131318] text-xl font-bold">Your Name</h3>
                         <input type="text" class="p-5 rounded-xl w-full bg-slate-100 p-5" placeholder="Type Your Name">
@@ -446,27 +459,26 @@
                         <h3 class="text-[#131318] text-xl font-bold">Phone Number</h3>
                         <input type="text" class="p-5 rounded-xl w-full bg-slate-100" placeholder="Type Your Phone Number">
                     </div>
-                    <div class=" col-span-2  mt-6 row-span-2 ">
+                    <div class=" lg:col-span-2  mt-6 row-span-2 ">
                         <h3 class="text-[#131318] text-xl font-bold text-start justify-start">Message</h3>
                         <input type="text" class="p-5 w-full h-full rounded-xl bg-slate-100" placeholder="Type Your Message">
                     </div>
-                    <button class="h-1/2 w-full mt-12 col-span-2 rounded-xl bg-[#FF4240]">Send Message</button>
+                    <button class="lg:h-1/2 h-2/3 w-[80%] ml-12 text-white text-xl font-bold mt-12 lg:col-span-2 rounded-xl bg-[#FF4240]">Send Message</button>
                 </div>
             </div>
-            <div class="text-center pt-4">
+            <div class="text-center pt-8 ">
                 <h3 class="text-2xl font-extrabold text-[#131318] mb-4">Social Media</h3>
                <div class="space-x-4 mt-2">
-                <i class="fa-brands fa-twitter"></i>
-                <i class="fa-brands fa-facebook"></i>
-                <i class="fa-brands fa-instagram"></i>
-                <i class="fa-brands fa-linkedin"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-linkedin"></i>
                </div>
             </div>
         </section>
     </main>
-
-    <!-- footer section  -->
-    <footer class="footer mt-24 px-32 py-28 bg-black lg:text-left text-base-content">
+     <!-- footer section  -->
+    <footer class="footer  mt-24 px-16 lg:px-32 py-28 bg-black text-balance text-base-content">
         <nav class="">
             <header class=" text-3xl font-extrabold text-white">Get In Touch</header> 
             <p class="lg:max-w-80 mt-7 text-[#bebecc]">Dit amet consectetur. Condimentum  adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
@@ -505,7 +517,7 @@
             <a class="link link-hover text-[#bebecc]">Hockeys for kids</a>
             <a class="link link-hover text-[#bebecc]">Hockeys for Adult</a>
         </nav> 
-      </footer>
+    </footer>
       
 </body>
 </html>
